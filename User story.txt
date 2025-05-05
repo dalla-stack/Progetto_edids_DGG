@@ -1,0 +1,101 @@
+User Story 1 – Generazione base di frasi no sense
+
+Titolo: Inserimento frase da analizzare
+Descrizione: Come utente, voglio inserire una frase in italiano o inglese per poter generare una versione no sense di essa.
+
+Criteri di accettazione:
+	•	È presente un campo di testo per l'inserimento della frase nel giusto formato([noun] [verb] the [adjective] [noun])
+	•	È possibile selezionare la lingua (IT/EN).
+	•	La frase viene validata prima dell'elaborazione
+
+
+
+
+
+
+User Story 2 - Analisi sintattica della frase
+
+Descrizione: Come utente, voglio che il sistema analizzi la struttura grammaticale della frase per usarla nella generazione.
+
+Criteri di accettazione:
+	•	È utilizzata l’API analyzeSyntax di Google NLP.
+	•	L'output include albero sintattico e POS tag.
+
+
+
+
+
+User Story 3 – Personalizzazione del template
+
+Descrizione: Come utente, voglio poter scrivere o selezionare un template personalizzato con segnaposto (es. [adjective] [noun] [verb] on the [noun]).
+
+Criteri di accettazione:
+	•	Il sistema deve riconoscere placeholder come [noun], [verb], [adjective]
+	•	Salvataggio dei template più usati o preferiti
+
+
+
+
+
+
+User Story 4 – Generazione multipla
+
+Descrizione: Come utente voglio generare più frasi no sense in un solo clic (es. 5 o 10 alla volta),così da avere una selezione più ampia.
+
+Criteri di accettazione:
+	•	Possibilità di scegliere quante frasi generare
+	•	Visualizzazione in elenco o griglia
+	•	Pulsante “Rigenera tutte” o “Rigenera solo questa”
+
+
+
+
+
+
+
+User Story 5 – Esportazione o condivisione delle frasi "Boh ma in realtà questa non m,i piace magari la caviamo vedete voi"
+
+Descrizione: Come utente voglio poter copiare, scaricare o condividere una frase generata, così da inviarla ad amici o postarla sui social con un solo clic.
+
+Criteri di accettazione:
+	•	Funzionalità “Copia negli appunti”
+	•	Condivisione via link, email o social (es. Twitter/X, WhatsApp)
+
+
+
+
+
+User Story 6 – Inserimento di parole personalizzate
+
+Descrizione: Come utente voglio inserire parole personalizzate nei dizionari (es. nomi o aggettivi propri), così da ottenere frasi no sense che includano riferimenti specifici o privati.
+
+Criteri di accettazione:
+	•	Form per aggiungere parole alle liste di base (nouns, verbs, adjectives)
+	•	Possibilità di disattivare le parole predefinite per usare solo le proprie
+	•	Validazione base (solo lettere, lunghezza minima, ecc.)
+
+
+
+
+User Story 7 - Generazione di un template grammaticale casuale
+
+Descrizione: Come utente, voglio che il sistema generi un template grammaticalmente corretto per costruire la frase no sense.
+
+Criteri di accettazione:
+	•	I template rispettano le regole grammaticali.
+	•	Sono disponibili almeno 5 template diversi.
+
+
+
+
+
+User Story 8 - Selezione della lingua di output
+
+Descrizione: Come utente, voglio scegliere la lingua di output per ottenere frasi in italiano o inglese.
+
+Criteri di accettazione:
+	•	È disponibile un selettore lingua.
+	•	I template e i dizionari sono adattati alla lingua scelta.
+	•	Etichette: frontend, supporto-lingua
+
+
